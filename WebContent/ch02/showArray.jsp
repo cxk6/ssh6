@@ -1,0 +1,37 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>将数组中的值循环输出</title>
+    
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">    
+	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	<meta http-equiv="description" content="This is my page">
+	<!--
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	-->
+
+  </head>
+  
+  <body>
+   	<%--
+   		char[] array={'A','B','C','D'};
+   		for(int i=0;i<array.length;i++){
+   			out.println(array[i]);
+   	%>
+   		<br>
+   	<%
+   		}
+   	 --%>
+   	 <br>
+   	 <%
+   		char[] array={'A','B','C','D'};
+   		for(int i=0;i<array.length;i++){
+   			out.println(array[i]+"<br>");
+   		}
+     %>
+
+  </body>
+</html>
